@@ -79,8 +79,8 @@ viewBlueParagraph =
     el BlueFill [ width (px 600), center ] <|
         paragraph None
             []
-            [ --el LargeText [ alignLeft, paddingXY 2 1 ] (text "R")
-              text "abbits were said to have lived in these parts. No one really knows when they first showed up or why...\n  They were said to have descended from \n  another kind of animal called the Ippits, but this may be myth."
+            [ el LargeText [ alignLeft, paddingXY 2 1 ] (text "R")
+            , text "abbits were said to have lived in these parts. No one really knows when they first showed up or why...\n  They were said to have descended from \n  another kind of animal called the Ippits, but this may be myth."
             , text "Once, there was a girl bunny who came to the land. Once, there was a girl bunny who came to the land. Once, there was a girl bunny who came to the land. Once, there was a girl bunny who came to the land."
             ]
 
